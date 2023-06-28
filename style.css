@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+img {
+    display: block;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.header-top {
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    margin: auto;
+}
+#search-bar {
+    height: 50px;
+    width: 500px;
+}
+.user-items {
+    display: flex;
+    flex-direction: row;
+}
+.profile-picture {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.favourites {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.cart {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.header-bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(172, 3, 152);
+    font-size: x-large;
+}
+.product-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 1% auto 1% auto;
+}
+.nav-elements {
+    margin-right: 3%;
+    color: white;
+}
+.products {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10%;
+}
+.see-more {
+    width: 400px;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 226, 226);
+    height: 1700px;
+}
+.main-left-specs {
+  border: 2px solid black;
+  margin-left: 0.1%;
+  margin-right: 4%;
+  padding: 0 1% 0 1%;
+  background-color: white;
+}
+.spec-checkboxes {
+    border: none;
+}
+.product-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 40% 40% 40%;
+    grid-template-rows: 40% 40% 40% 40%;    
+    width: fit-content;
+}
+.product {
+    background-color: white;
+    padding: auto;
+    width: 63%;
+    height: 95%
+}
+.product-text {
+    font-size: x-large;
+    margin: 1% 0 1% 0;
+}
+.stock-availability {
+    margin: 1% 0 1% 1%;
+    font-size: small;
+}
+.purchase-button {
+   margin: 10% 0 0 2%;
+   height: 10%;
+   width: 95%;
+}
+.product-picture {
+    margin: 10px 10px 0 10px;
+}
+.footer-container {
+   height: 100px;
+   font-size: x-large;
+  
+}
+.footer-contact {
+    display: block;
+    margin: 2% 20% 0 45%;
+}
